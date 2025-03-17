@@ -49,3 +49,37 @@ Başlangıç Dizisi: [7,3,5,8,2,9,4,15,6]
 
 4.Adım: Kalan dizideki en küçük sayı 5, 8 ile yer değiştirir:[2,3,4,5,7,9,8,15,6]
 
+
+
+
+### **PROJE 2**
+**Merge Sort**
+
+_2. Soru: Verilen [16,21,11,8,12,22] dizisinin Merge Sort algoritmasına göre sıralayınız_
+
+Başlangıç Dizisi: [16,21,11,8,12,22]
+
+Adım: Dizi iki parçaya bölünür: [16,21,11] ve [8,12,22]
+
+Adım: [16,21,11] tekrar ikiye bölünür: [16] ve [21,11]; [8,12,22] ise [8] ve [12,22]
+
+Adım: [21,11] → [11,21] ve [12,22] zaten sıralı.
+
+Adım: [16] ve [11,21] birleşerek [11,16,21] oluşturur.
+
+Adım: [8] ve [12,22] birleşerek [8,12,22] oluşturur.
+
+Adım: Son olarak [11,16,21] ve [8,12,22] birleşerek [8,11,12,16,21,22] dizisini oluşturur ve sıralama tamamlanır.
+
+Sonuç Dizisi: [8,11,12,16,21,22]
+
+Time Complexity (Big-O):
+
+Worst-case: O(nlogn)
+
+Average-case: O(nlogn)
+
+Best-case: O(nlogn)
+
+
+
