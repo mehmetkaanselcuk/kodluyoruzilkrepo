@@ -59,17 +59,17 @@ _2. Soru: Verilen [16,21,11,8,12,22] dizisinin Merge Sort algoritmasına göre s
 
 Başlangıç Dizisi: [16,21,11,8,12,22]
 
-Adım: Dizi iki parçaya bölünür: [16,21,11] ve [8,12,22]
+1.Adım: Dizi iki parçaya bölünür: [16,21,11] ve [8,12,22]
 
-Adım: [16,21,11] tekrar ikiye bölünür: [16] ve [21,11]; [8,12,22] ise [8] ve [12,22]
+2.Adım: [16,21,11] tekrar ikiye bölünür: [16] ve [21,11]; [8,12,22] ise [8] ve [12,22]
 
-Adım: [21,11] → [11,21] ve [12,22] zaten sıralı.
+3.Adım: [21,11] → [11,21] ve [12,22] zaten sıralı.
 
-Adım: [16] ve [11,21] birleşerek [11,16,21] oluşturur.
+4.Adım: [16] ve [11,21] birleşerek [11,16,21] oluşturur.
 
-Adım: [8] ve [12,22] birleşerek [8,12,22] oluşturur.
+5.Adım: [8] ve [12,22] birleşerek [8,12,22] oluşturur.
 
-Adım: Son olarak [11,16,21] ve [8,12,22] birleşerek [8,11,12,16,21,22] dizisini oluşturur ve sıralama tamamlanır.
+6.Adım: Son olarak [11,16,21] ve [8,12,22] birleşerek [8,11,12,16,21,22] dizisini oluşturur ve sıralama tamamlanır.
 
 Sonuç Dizisi: [8,11,12,16,21,22]
 
@@ -81,5 +81,39 @@ Average-case: O(nlogn)
 
 Best-case: O(nlogn)
 
+
+
+
+
+
+
+### **PROJE 3**
+**Binary Search Tree**
+
+_3. Soru: Verilen [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisini Binary Search Tree algoritmasına göre oluşturunuz._
+
+Başlangıç Dizisi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+1.Adım: Root 7 olarak seçilir.
+
+2.Adım: 5, root 7'nin soluna yerleşir.
+
+3.Adım: 1, 7nin solunda 5in soluna yerleşir.
+
+4.Adım: 8, root 7'nin sağına yerleşir.
+
+5.Adım: 3, 5in solundaki 1'in sağına yerleşir.
+
+6.Adım: 6, 5in sağına yerleşir.
+
+7.Adım: 0, 1'in soluna yerleşir.
+
+8.Adım: 9, 8'in sağına yerleşir.
+
+9.Adım: 4, 3'ün sağına yerleşir.
+
+10.Adım: 2, 3'ün soluna yerleşir ve ağaç tamamlanır.
+
+Sonuç olarak, Binary Search Tree oluşturulmuş olur.
 
 
